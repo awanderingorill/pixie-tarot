@@ -48,7 +48,7 @@ const Wrapper = styled.div`
   width: 50vw;
 
   @media ${device.mobileL} {
-    width: 80vw;
+    width: 90vw;
     align-items: center;
   }
 `
