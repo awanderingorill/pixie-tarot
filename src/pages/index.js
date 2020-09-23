@@ -1,10 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import { createGlobalStyle } from "styled-components"
+import Helmet from "react-helmet"
 import GlobalFonts from "../fonts/fonts"
 import background from "../images/pixie-bg.png"
 import hannah from "../images/hannah.png"
 import ana from "../images/ana.png"
+import { device } from "../components/device"
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -20,6 +22,14 @@ const GlobalStyle = createGlobalStyle`
     background: url(${background});
     background-size: auto;
     background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  @media ${device.mobileL} {
+    body {
+      display: block;
+      margin: 0 1em;
+    }
   }
 `
 
@@ -31,19 +41,31 @@ const Wrapper = styled.div`
   font-family: "Inter";
   height: auto;
   width: 50vw;
+
+  @media ${device.mobileL} {
+    width: 80vw;
+    align-items: center;
+  }
 `
 
 const LogoWrapper = styled.div`
   margin: 10em 0;
+
+  @media ${device.mobileL} {
+    width: 80vw;
+  }
 `
 
 const Logo = styled.div`
   font-family: "Maria";
   font-size: 60px;
+
+  @media ${device.mobileL} {
+    font-size: 40px;
+  }
 `
 
 const TagLine = styled.div`
-  width: 200px;
 `
 
 const ContentWrapper = styled.div`
@@ -53,6 +75,11 @@ const Section = styled.div`
   width: 470px;
   display: block;
   margin-bottom: 4em;
+
+  @media ${device.mobileL} {
+    width: 80vw;
+    margin-bottom: 2em;
+  }
 `
 
 const Title = styled.p`
@@ -77,6 +104,7 @@ const Pics = styled.div`
 export default function Home() {
   return (
     <>
+    <Helmet title="Pixie Tarot" defer={false} />
     <GlobalFonts/>
     <GlobalStyle/>
     <Wrapper>
