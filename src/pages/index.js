@@ -107,6 +107,12 @@ const Pics = styled.div`
   margin-bottom: 2em;
 `
 
+const Footer = styled.footer`
+  align-self: center;
+  text-align: center;
+  padding-bottom: 4em;
+`
+
 export default function Home() {
   return (
     <>
@@ -157,6 +163,9 @@ export default function Home() {
           </Content>
         </Section>
       </ContentWrapper>
+      <Footer>
+      © {new Date().getFullYear()} Pixie Tarot
+      </Footer>
     </Wrapper>
     </>
   );
