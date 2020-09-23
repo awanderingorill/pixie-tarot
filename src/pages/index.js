@@ -57,7 +57,7 @@ const LogoWrapper = styled.div`
   margin: 10em 0;
 
   @media ${device.mobileL} {
-    width: 90vw;
+    width: 80vw;
   }
 `
 
@@ -82,7 +82,7 @@ const Section = styled.div`
   margin-bottom: 4em;
 
   @media ${device.mobileL} {
-    width: 80vw;
+    width: 90vw;
     margin-bottom: 2em;
   }
 `
