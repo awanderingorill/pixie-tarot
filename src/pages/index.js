@@ -100,7 +100,8 @@ const Pics = styled.div`
   & > img {
     max-width: 45%;
     max-height: 45%;
-    padding: 10px 10px 0 0;
+    padding: 0;
+    padding-right: 1em;
   }
 
   flex-flow: row;
