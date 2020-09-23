@@ -159,7 +159,7 @@ export default function Home() {
               <img src={ana}/>
             </Pics>
             <p>Pixie Tarot was started in 2020 by two friends, Hannah and Ana. Both of us have years of experience with the tarot, and we are excited to share that with you!</p>
-            <p>If you have any questions, please don't hesitate to email us at hello@pixie-tarot.com. You can also find us on Instagram at <a href="http://instagram.com/pixie__tarot" target="new">@pixie__tarot</a>.</p>
+            <p>If you have any questions, please don't hesitate to email us at hello@pixie-tarot.com. You can also find us on <a href="http://instagram.com/pixie__tarot" target="new">Instagram</a>.</p>
           </Content>
         </Section>
       </ContentWrapper>
