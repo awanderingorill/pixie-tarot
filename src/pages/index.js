@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
   @media ${device.mobileL} {
     body {
       display: block;
-      margin: 0 1em;
+      padding: 0 1em;
     }
   }
 
@@ -133,7 +133,7 @@ export default function Home() {
 
             <p>We offer two kinds of readings: the three-card spread and the eleven-card spread.</p>
 
-            <p>Three-card spread readings last typically 15-20 minutes. The cards represent either Past, Present, and Future or Mind, Body, and Spirit. Your choice. Suggested donation is $15.</p>
+            <p>Three-card spread readings typically last 15-20 minutes. The cards represent either Past, Present, and Future or Mind, Body, and Spirit. Your choice. Suggested donation is $15.</p>
 
             <p>The eleven-card spread is our variation on the Celtic Cross. These full, thorough readings give you insight into the core of a situation, including information about your past, present, future, highest self, environment, hopes and fears, and outcome. They typically last around 45 minutes, and suggested donation is $30.</p>
           </Content>
