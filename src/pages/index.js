@@ -57,7 +57,7 @@ const LogoWrapper = styled.div`
   margin: 10em 0;
 
   @media ${device.mobileL} {
-    width: 80vw;
+    width: 90vw;
   }
 `
 
