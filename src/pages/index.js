@@ -31,6 +31,11 @@ const GlobalStyle = createGlobalStyle`
       margin: 0 1em;
     }
   }
+
+   a {
+     color: #63003B;
+     text-decoration: underline;
+   }
 `
 
 const Wrapper = styled.div`
@@ -99,6 +104,7 @@ const Pics = styled.div`
   }
 
   flex-flow: row;
+  margin-bottom: 2em;
 `
 
 export default function Home() {
@@ -123,6 +129,8 @@ export default function Home() {
         <Section>
           <Title>How does it work?</Title>
           <Content>
+            <p>All of our readings are donation-based. This means that, while there is a suggested donation for each length of reading, we do not expect you to give and there is no shame if you are unable to meet that amount.</p>
+
             <p>We offer two kinds of readings: the three-card spread and the eleven-card spread.</p>
 
             <p>Three-card spread readings last typically 15-20 minutes. The cards represent either Past, Present, and Future or Mind, Body, and Spirit. Your choice. Suggested donation is $15.</p>
@@ -131,19 +139,19 @@ export default function Home() {
           </Content>
         </Section>
         <Section>
-          <Title>Book an appointment</Title>
+          <Title>Book a reading</Title>
           <Content>
-            You can book an appointment with us via Calendly.
+            You can book an appointment with us via <a href="https://calendly.com/pixie-tarot" target="new">Calendly</a>.
           </Content>
         </Section>
         <Section>
           <Title>About us</Title>
           <Content>
-            Pixie Tarot was started in 2020 by two friends, Hannah and Ana.
             <Pics>
               <img src={hannah}/>
               <img src={ana}/>
             </Pics>
+            Pixie Tarot was started in 2020 by two friends, Hannah and Ana. Both of us have years of experience with the tarot, and we are excited to share that with you!
           </Content>
         </Section>
       </ContentWrapper>
