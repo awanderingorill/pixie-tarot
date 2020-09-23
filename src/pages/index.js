@@ -123,7 +123,7 @@ export default function Home() {
     <Wrapper>
       <LogoWrapper>
         <Logo>Pixie Tarot</Logo>
-        <TagLine>Donation-based</TagLine> 
+        <TagLine>Donation-Based</TagLine> 
         <TagLine>Virtual Tarot Readings</TagLine>
       </LogoWrapper>
       <ContentWrapper>
