@@ -82,7 +82,7 @@ const Section = styled.div`
   margin-bottom: 4em;
 
   @media ${device.mobileL} {
-    width: 90vw;
+    width: 80vw;
     margin-bottom: 2em;
   }
 `
