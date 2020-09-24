@@ -34,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
    a {
-     color: #63003B;
+     color: #460000;
      text-decoration: underline;
    }
 `
