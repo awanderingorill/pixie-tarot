@@ -104,6 +104,7 @@ const Chart = styled.div`
   grid-row-gap: 10px;
   font-size: 12px;
   padding-top: 1em;
+  min-width: 500px;
 `
 
 const FirstChartItem = styled.div`
@@ -168,7 +169,7 @@ const Pics = styled.div`
     max-width: 45%;
     max-height: 45%;
     padding: 0;
-    padding-right: 1em;
+    padding-right: 0.5em;
   }
 
   flex-flow: row;
