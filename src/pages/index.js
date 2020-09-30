@@ -63,7 +63,7 @@ const LogoWrapper = styled.div`
 `
 
 const Logo = styled.div`
-  font-family: "Maria";
+  font-family: "Recoleta Bold";
   font-size: 60px;
 
   @media ${device.mobileL} {
@@ -89,79 +89,12 @@ const Section = styled.div`
 `
 
 const Title = styled.p`
-  font-family: "Maria";
+  font-family: "Recoleta Bold";
   font-size: 20px;
   margin-top: 0;
 `
 
 const Content = styled.div``
-
-const Chart = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr repeat(2, 1fr);
-  grid-template-rows: auto auto auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  font-size: 12px;
-  padding-top: 1em;
-  min-width: 500px;
-`
-
-const FirstChartItem = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
-  font-family: "Maria";
-  text-transform: uppercase;
-`
-
-const SecondChartItem = styled.div`
-  grid-area: 1 / 2 / 2 / 3;
-  font-family: "Maria";
-  text-transform: uppercase;
-`
-
-const ThirdChartItem = styled.div`
-  grid-area: 1 / 3 / 2 / 4;
-  font-family: "Maria";
-  text-transform: uppercase;
-`
-
-const FourthChartItem = styled.div`
-  grid-area: 1 / 4 / 2 / 5; 
-  font-family: "Maria";
-  text-transform: uppercase;
-`
-
-const FifthChartItem = styled.div`
-  grid-area: 2 / 1 / 3 / 2;
-`
-
-const SixthChartItem = styled.div`
-  grid-area: 2 / 2 / 3 / 3;
-`
-
-const SeventhChartItem = styled.div`
-  grid-area: 2 / 3 / 3 / 4;
-`
-
-const EighthChartItem = styled.div`
-  grid-area: 2 / 4 / 3 / 5;
-`
-
-const NinthChartItem = styled.div`
-  grid-area: 3 / 1 / 4 / 2;
-`
-
-const TenthChartItem = styled.div`
-  grid-area: 3 / 2 / 4 / 3;
-`
-
-const EleventhChartItem = styled.div`
-  grid-area: 3 / 3 / 4 / 4;
-`
-
-const TwelfthChartItem = styled.div`
-  grid-area: 3 / 4 / 4 / 5;
-`
 
 const Pics = styled.div`
 
@@ -211,21 +144,6 @@ export default function Home() {
           <Title>What kinds of readings are there?</Title>
           <Content>
             <p>We offer two kinds of readings: the three-card spread and the eleven-card spread.</p>
-
-            <Chart>
-              <FirstChartItem>Spread</FirstChartItem>
-              <SecondChartItem>Description</SecondChartItem>
-              <ThirdChartItem>Duration</ThirdChartItem>
-              <FourthChartItem>Suggested Donation</FourthChartItem>
-              <FifthChartItem>Three Cards</FifthChartItem>
-              <SixthChartItem>The cards represent either Past, Present, and Future or Mind, Body, and Spirit. Your choice. </SixthChartItem>
-              <SeventhChartItem>15-20min</SeventhChartItem>
-              <EighthChartItem>$10</EighthChartItem>
-              <NinthChartItem>Eleven Cards</NinthChartItem>
-              <TenthChartItem>Our variation on the Celtic Cross. These full, thorough readings give you insight into the core of a situation, including information about your past, present, future, highest self, environment, hopes and fears, and outcome.</TenthChartItem>
-              <EleventhChartItem>45min</EleventhChartItem>
-              <TwelfthChartItem>$20</TwelfthChartItem>
-            </Chart>
           </Content>
         </Section>
         <Section>
