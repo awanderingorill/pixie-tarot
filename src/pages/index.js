@@ -29,7 +29,6 @@ const GlobalStyle = createGlobalStyle`
     body {
       display: block;
       padding: 0 1em;
-      background-position-x: right;
     }
   }
 
