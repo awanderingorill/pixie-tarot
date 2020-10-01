@@ -139,7 +139,7 @@ export default function Home() {
           <Content>
             <p>We offer two kinds of readings: the three-card spread and the eleven-card spread.</p>
             <p>In our three-card spread, the cards represent either "Past, Present, and Future" or "Mind, Body, and Spirit." Your choice. Duration is usually around 20 minutes, and each reading is $20.</p>
-            <p>The eleven-card spread is our variation on the Celtic Cross. These full, thorough readings give you insight into the core of a situation, including information about your past, present, future, highest self, environment, hopes and fears, and outcome. Duration is 45min, and fee is $50.</p>
+            <p>The eleven-card spread is our variation on the Celtic Cross. These full, thorough readings give you insight into the core of a situation, including information about your past, present, future, highest self, environment, hopes and fears, and outcome. The duration is 45min, and they cost $45.</p>
             <p>If the cost of these readings is prohibitive for you, please email us at hello@pixie-tarot.com and we can work something out!</p>
           </Content>
         </Section>
