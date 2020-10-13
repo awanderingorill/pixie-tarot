@@ -144,7 +144,7 @@ export default function Home() {
         <Section>
           <Title>Book a reading</Title>
           <Content>
-            You can book an appointment with us via <a href="https://calendly.com/pixie-tarot" target="new">Calendly</a>.
+            You can book an appointment with us via email at hello@pixie-tarot.com, or by DM on Instagram @pixie__tarot.
           </Content>
         </Section>
         <Section>
